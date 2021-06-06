@@ -23,4 +23,16 @@ class AppTextStyles {
     fontSize: 13,
     fontWeight: FontWeight.normal,
   );
+
+  static final TextStyle titleGolden = GoogleFonts.quantico(
+    fontSize: 30,
+    color: Color(0xFFAE841A),
+    fontWeight: FontWeight.w600,
+  );
+
+  static final TextStyle goldenList = GoogleFonts.quantico(
+    fontSize: 15,
+    color: Color(0xFFAE841A),
+    fontWeight: FontWeight.w600,
+  );
 }
